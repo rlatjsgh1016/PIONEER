@@ -12,7 +12,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-	 <mvc:annotation-driven>
+	<mvc:annotation-driven>
     	<mvc:message-converters> <!-- @ResponseBody로 String 처리할때 한글처리 -->
         <bean class="org.springframework.http.converter.StringHttpMessageConverter">
             <property name="supportedMediaTypes">
@@ -27,8 +27,8 @@
    	<mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
 	  	
    	<context:component-scan base-package="com.pioneer.controller"/>
-   	
-   	<!-- 타일즈 설정 -->
+
+	<!-- 타일즈 설정 -->
    	<bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
        <property name="definitions"  value="/WEB-INF/tiles.xml"/>
     </bean>
@@ -44,17 +44,13 @@
       <property name="order" value="2" />
     </bean>
 
-<!-- 
 	<bean id="multipartResolver"
         class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-         setting maximum upload size
+         <!-- setting maximum upload size -->
         <property name="maxUploadSize" value="314572800" />
     </bean>
-
- -->	
- <!-- 
-	<bean name="/index" class="com.newlecture.controller.IndexController" />
-	<bean name="/note/list" class="com.newlecture.note.controller.ListController" />
-	<bean name="/note/detail" class="com.newlecture.note.controller.DetailController" />
-	 -->
+   
+  
+   
+  
 </beans>

@@ -57,7 +57,7 @@
 	   <version>5.0.4.RELEASE</version>
 	</dependency>
     
-	<dependency>
+<!-- 	<dependency>
          <groupId>org.mybatis</groupId>
          <artifactId>mybatis-spring</artifactId>
          <version>1.3.1</version>
@@ -67,8 +67,18 @@
          <groupId>org.mybatis</groupId>
          <artifactId>mybatis</artifactId>
          <version>3.4.5</version>
-    </dependency>
+    </dependency> -->
+	<dependency>
+	    <groupId>commons-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>1.3.3</version>
+	</dependency>
 	
+	<dependency>
+	    <groupId>org.apache.tiles</groupId>
+	    <artifactId>tiles-jsp</artifactId>
+	    <version>3.0.7</version>
+	</dependency>
 	
   </dependencies>
   

@@ -12,12 +12,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1" >
 <link href="${ctx }/resources/css/main.css" type ="text/css" rel ="stylesheet">
 <script src="${ctx }/resources/js/main.js"></script>
-
-
 </head>
 <body>
-
-
 
 <header class="header">
 		<a href="${ctx }/index"><h1 class="h1 "> <img src="../resources/images/sub3.png"></h1></a> 
@@ -42,7 +38,7 @@
    							      <a href="#">질문게시판</a>
 							 </div>
 					</div>
-					<!-- <li></li> -->
+				
 				</ul>
 				</div>
 			</nav>
@@ -73,9 +69,6 @@
 			  </div>
 		
 		</div>
-		
-
 	</main>
-
 </body>
 </html>

@@ -5,7 +5,7 @@ window.addEventListener("resize",function(){
 	var background = document.querySelector('.main');
 
 	background.style.width = parseInt(width)+"px";
-	background.style.height = parseInt(height)- 51 +"px";
+	//background.style.height = parseInt(height)- 51 +"px";
 
 
 });
@@ -21,7 +21,7 @@ var width = window.innerWidth;
 var background = document.querySelector('.main');
 
 background.style.width = parseInt(width)+"px";
-background.style.height = parseInt(height)- 51 +"px";
+//background.style.height = parseInt(height)- 51 +"px";
 
 
 
