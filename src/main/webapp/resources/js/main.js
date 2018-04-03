@@ -7,6 +7,16 @@ window.addEventListener("resize",function(){
 	background.style.width = parseInt(width)+"px";
 	//background.style.height = parseInt(height)- 51 +"px";
 
+  var visual = document.querySelector(".visual");
+    visual.style.height = "20%;"
+    visual.style.backgroundSize = "100%";
+
+  var entBtn = document.querySelector(".ent-btn");
+  var visualHeight = visual.style.height;
+    entBtn.style.left = parseInt(width)/2 - 40 +"px";
+
+  var boardContainer = document.querySelector(".contents");
+    boardContainer.style.width = parseInt(width) +"px";
 
 });
 
@@ -22,9 +32,6 @@ var background = document.querySelector('.main');
 
 background.style.width = parseInt(width)+"px";
 //background.style.height = parseInt(height)- 51 +"px";
-
-
-
 
 /*
 if(window.innerHeight > window.innerWidth)
@@ -65,6 +72,16 @@ dropdown2.onclick= function() {
     document.getElementById("myDropdown2").classList.toggle("show");
 }
 
+var visual = document.querySelector(".visual");
+  visual.style.backgroundSize = "100%";
+
+var entBtn = document.querySelector(".ent-btn");
+  entBtn.style.left = parseInt(width)/2 - 40 +"px";
+
+
+var boardContainer = document.querySelector(".contents");
+  boardContainer.style.width = parseInt(width) +"px";
+
 
 // Close the dropdown menu if the user clicks outside of it
  window.onclick = function(event) {
@@ -99,6 +116,5 @@ dropdown2.onclick= function() {
   
 } 
  
-
 });
 

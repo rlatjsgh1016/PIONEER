@@ -13,4 +13,12 @@ public class MainController {
 		return "main.index";
 		
 	}
+	
+	
+	@RequestMapping("/howtouse")
+	public String howToUse() {
+		
+		return "main.howToUse";
+		
+	}
 }
