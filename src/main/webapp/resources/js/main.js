@@ -82,6 +82,16 @@ var entBtn = document.querySelector(".ent-btn");
 var boardContainer = document.querySelector(".contents");
   boardContainer.style.width = parseInt(width) +"px";
 
+  
+//tab bar -----------------------------------------
+  
+  
+ 
+  
+  
+//---------------------------------------------------
+  
+  
 
 // Close the dropdown menu if the user clicks outside of it
  window.onclick = function(event) {

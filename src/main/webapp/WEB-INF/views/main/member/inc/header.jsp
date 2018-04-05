@@ -15,7 +15,7 @@
 						    <a href="#">서비스소개</a>
 						</div>
 					</div>
-					<li><a href="../../howtouse#firstPage">사용법</a></li>
+					<li><a href="howtouse#firstPage">사용법</a></li>
 					<li><a href="">취향분석</a></li>
 					<div class="dropdown">	
 						<li class="dropbtn2">게시판</li>
