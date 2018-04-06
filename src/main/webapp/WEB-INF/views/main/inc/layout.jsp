@@ -19,9 +19,10 @@
 	<tiles:insertAttribute name="header" />
 	
 	<!-- MAIN ------------------------------------------------------------------------------------------- -->
-	
-	<tiles:insertAttribute name="main" />
 
+		
+		<tiles:insertAttribute name="main" />
+	</main>
 	
 	<tiles:insertAttribute name="footer" />
 	

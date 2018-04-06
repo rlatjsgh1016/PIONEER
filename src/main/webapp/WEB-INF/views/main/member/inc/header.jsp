@@ -15,7 +15,7 @@
 						    <a href="#">서비스소개</a>
 						</div>
 					</div>
-					<li><a href="howtouse#firstPage">사용법</a></li>
+					<li><a href="${ctx }/main/howtouse#firstPage">사용법</a></li>
 					<li><a href="">취향분석</a></li>
 					<div class="dropdown">	
 						<li class="dropbtn2">게시판</li>
@@ -34,3 +34,4 @@
 				<span id ="open-button"><img src="${ctx }/resources/images/ic_dehaze_white_24dp_2x.png" ></span>
 			</nav>
 	</header>
+	

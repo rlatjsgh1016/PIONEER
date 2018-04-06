@@ -8,10 +8,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainMemberController {
 
 	@RequestMapping("/login")
-	public String index() {
+	public String login() {
 		
 		return "main.member.login";
 		
 	}
+	
+	@RequestMapping("/join")
+	public String join() {
+		
+		return "main.member.join";
+		
+	}
+
 	
 }

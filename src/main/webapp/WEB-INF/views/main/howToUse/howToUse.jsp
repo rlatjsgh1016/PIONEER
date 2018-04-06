@@ -41,21 +41,22 @@
 </head>
 <body>
 
-	<div class="main">
-		<div id="myNav" class="overlay" style="z-index:100;">
-		  	<!-- Button to close the overlay navigation -->
-		  	<a href="javascript:void(0)" class="close-button" >&times;</a>
-				<!-- Overlay content -->
-				<div class="overlay-content">
-				   	<a href="#">Join</a>
-				 	<a href="member/login">Login</a>
+<main class="main">
+	<div id="myNav" class="overlay" style="z-index:100;">
+			  <!-- Button to close the overlay navigation -->
+				  <a href="javascript:void(0)" class="close-button" >&times;</a>
+				
+				  <!-- Overlay content -->
+				  <div class="overlay-content">
+				 	<a href="${ctx }/main/member/join">Join</a>
+				 	<a href="${ctx }/main/member/login">Login</a>
 				 	<a href="#">My Page</a>
 				    <a href="#">Clients</a>
 				    <a href="#">About</a>
 				    <a href="#">Contact</a>
-				</div>
-		</div>	
-	</div>
+				  </div>
+			</div>
+</main>
 
 
 <ul id="menu">
