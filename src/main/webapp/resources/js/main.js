@@ -106,12 +106,10 @@ var boardContainer = document.querySelector(".contents");
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
-   
     }
   }
   else if (!event.target.matches('.dropbtn2')) {
 	  
-	 
 	  var dropdowns2 = document.getElementsByClassName("dropdown-content2");
 	    
 	     var j;
@@ -120,10 +118,8 @@ var boardContainer = document.querySelector(".contents");
 	       if (openDropdown2.classList.contains('show')) {
 	         openDropdown2.classList.remove('show');
 	       }
-
 	     }
 	   }
-  
 } 
  
 });

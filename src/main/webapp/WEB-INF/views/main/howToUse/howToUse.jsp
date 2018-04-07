@@ -14,7 +14,7 @@
     <meta name="Resource-type" content="Document" />
 
 
-    <link rel="stylesheet" type="text/css" href="${ctx }/resources/css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="${ctx }/resources/css/howToUse.css" />
     <link rel="stylesheet" type="text/css" href="${ctx }/resources/css/examples.css" />
 
     <!--[if IE]>
@@ -26,7 +26,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-    <script type="text/javascript" src="${ctx }/resources/js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="${ctx }/resources/js/howToUse.js"></script>
     <script type="text/javascript" src="${ctx }/resources/js/examples.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
