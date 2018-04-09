@@ -8,9 +8,9 @@ window.addEventListener("resize",function(){
 	background.style.height = parseInt(height)- 51 +"px";
 
 	
-	var enter = document.querySelector('.enter');
+/*	var enter = document.querySelector('.enter');
 	enter.style.left = parseInt(width)/2 - 30 +"px";
-	enter.style.top = parseInt(height)/1.3 +"px";
+	enter.style.top = parseInt(height)/1.3 +"px";*/
 
 
 });
@@ -27,10 +27,10 @@ var background = document.querySelector('.main');
 background.style.width = parseInt(width)+"px";
 background.style.height = parseInt(height)- 51 +"px";
 
-var enter = document.querySelector('.enter');
+/*var enter = document.querySelector('.enter');
 enter.style.left = parseInt(width)/2 - 30 +"px";
 enter.style.top = parseInt(height)/1.3 +"px";
-
+*/
 
 
 

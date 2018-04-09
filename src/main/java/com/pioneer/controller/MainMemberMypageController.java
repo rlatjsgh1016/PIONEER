@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/main/member/mypage")
 public class MainMemberMypageController {
 
-
 	@RequestMapping("/index")
 	public String login() {
 		

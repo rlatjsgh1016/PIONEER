@@ -34,7 +34,7 @@
 	
 	
 	<main class="main">
-		<div class="enter btn" style="left: 100px;">
+		<div class="enter btn" >
 			<a href="${ctx}/main/index">
 			 > ENTER
 			</a>

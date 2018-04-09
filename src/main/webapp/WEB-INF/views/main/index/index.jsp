@@ -9,7 +9,7 @@
 		<!-- The overlay -->
 		
 <main class="main">	
-		<div id="myNav" class="overlay">
+		<div id="myNav" class="overlay" style="z-index: 1000;">
 			  <!-- Button to close the overlay navigation -->
 				  <a href="javascript:void(0)" class="close-button" >&times;</a>
 				
@@ -17,7 +17,7 @@
 				  <div class="overlay-content">
 				 	<a href="${ctx }/main/member/join">Join</a>
 				 	<a href="${ctx }/main/member/login">Login</a>
-				 	<a href="#">My Page</a>
+				 	<a href="${ctx }/main/member/mypage/index">My Page</a>
 				    <a href="#">Clients</a>
 				    <a href="#">About</a>
 				    <a href="#">Contact</a>

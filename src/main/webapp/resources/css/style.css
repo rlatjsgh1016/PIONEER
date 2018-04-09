@@ -112,6 +112,8 @@ body{
   	font-size: 15px;
   	position: fixed;
   	z-index: 1;
+  	top: 80%;
+  	left: 45%;
   }
   
 .btn{

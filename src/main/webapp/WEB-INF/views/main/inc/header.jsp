@@ -5,14 +5,14 @@
 <link href="${ctx }/resources/css/main.css" type ="text/css" rel ="stylesheet">
 <script src="${ctx }/resources/js/main.js"></script>
 <header class="header">
-		<a href="../index"><h1 class="h1 "> <img src="${ctx }/resources/images/sub3.png"></h1></a> 
+		<a href="${ctx }/main/index"><h1 class="h1 "> <img src="${ctx }/resources/images/sub3.png"></h1></a> 
 			<nav class="main-menu">
 				<h1 class="hidden">메인메뉴</h1>
 				<div class="topnav" id="myTopnav">
 				<ul>
 					<div class="dropdown">					
 						<li class="dropbtn">소개</li>
-						<div id="myDropdown" class="dropdown-content" style="z-index:100;">
+						<div id="myDropdown" class="dropdown-content" style="z-index: 50;">
 							<a href="#">회사소개</a>
 						    <a href="#">서비스소개</a>
 						</div>
@@ -21,10 +21,10 @@
 					<li><a href="">취향분석</a></li>
 					<div class="dropdown">	
 						<li class="dropbtn2">게시판</li>
-							<div id="myDropdown2" class="dropdown-content2" style="z-index:100;">
-							      <a href="#">후기게시판</a>
-							      <a href="#">자유게시판</a>
-   							      <a href="#">질문게시판</a>
+							<div id="myDropdown2" class="dropdown-content2" style="z-index: 50;">
+							      <a href="${ctx }/main/board/review">후기게시판</a>
+							      <a href="${ctx }/main/board/free">자유게시판</a>
+   							      <a href="${ctx }/main/board/question">질문게시판</a>
 							 </div>
 					</div>
 				</ul>

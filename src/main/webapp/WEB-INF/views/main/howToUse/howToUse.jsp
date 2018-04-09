@@ -47,10 +47,10 @@
 				  <a href="javascript:void(0)" class="close-button" >&times;</a>
 				
 				  <!-- Overlay content -->
-				  <div class="overlay-content">
+				  <div class="overlay-content" style="z-index:103;">
 				 	<a href="${ctx }/main/member/join">Join</a>
 				 	<a href="${ctx }/main/member/login">Login</a>
-				 	<a href="#">My Page</a>
+				 	<a href="${ctx }/main/member/mypage/index">My Page</a>
 				    <a href="#">Clients</a>
 				    <a href="#">About</a>
 				    <a href="#">Contact</a>
@@ -59,7 +59,7 @@
 </main>
 
 
-<ul id="menu">
+<ul id="menu" style="z-index:10;">
     <li data-menuanchor="firstPage" class="active"><a href="#firstPage">1</a></li>
     <li data-menuanchor="secondPage"><a href="#secondPage">2</a></li>
     <li data-menuanchor="3rdPage"><a href="#3rdPage">3</a></li>
