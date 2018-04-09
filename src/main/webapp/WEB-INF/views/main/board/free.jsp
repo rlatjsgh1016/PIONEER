@@ -21,7 +21,7 @@
 			</div>
 
 	<section class="visual visual2">
-			<h1 style="color: white">자유게시판</h1>
+			<h1 >자유게시판</h1>
 	</section>
 
 	<section class="contents">

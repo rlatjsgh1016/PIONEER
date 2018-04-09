@@ -260,6 +260,11 @@ body{
 	align-items: center;
 }
 
+.visual2>h1{
+	
+	color: white;
+}
+
 /* -------�뀫contents ----------------------------*/
 
 .contents{
