@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1" >
 <link href="${ctx }/resources/css/member.css" type ="text/css" rel ="stylesheet">
-<link href="${ctx }/resources/css/.css" type ="text/css" rel ="stylesheet">
+
 
 <script src="${ctx }/resources/js/main.js"></script>
 </head>

@@ -18,9 +18,7 @@
 				 	<a href="${ctx }/main/member/join">Join</a>
 				 	<a href="${ctx }/main/member/login">Login</a>
 				 	<a href="${ctx }/main/member/mypage/index">My Page</a>
-				    <a href="#">Clients</a>
-				    <a href="#">About</a>
-				    <a href="#">Contact</a>
+				    <a href="${ctx }/main/member/myservice/index">My Service</a>
 				  </div>
 			</div>
 		

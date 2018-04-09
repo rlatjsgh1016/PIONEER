@@ -258,6 +258,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 100px;
 }
 
 .visual2>h1{
@@ -431,6 +432,7 @@ body{
 	.visual2{
 		background-image: none;
 		background-color: #2E2E2E;
+		
 	}
 	.ent-btn{
 		top: 180px;

@@ -36,7 +36,7 @@ a:hover, a:active {
 
 
 body{
-	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
+	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body{
 	max-width: fit-content;
 	padding-left : 25px;
 	margin : 50px auto 30px auto;
-	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
+	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 
@@ -249,7 +249,7 @@ body{
 	display:block;
 } 
 
-/* -------ㅡvisual ----------------------------*/
+/* -------�뀫visual ----------------------------*/
 
 .visual{
 	background: url("../images/fashion.jpg") no-repeat center;
@@ -259,7 +259,7 @@ body{
 	border-bottom: 4px solid gray;
 }
 
-/* -------ㅡcontents ----------------------------*/
+/* -------�뀫contents ----------------------------*/
 
 .contents{
 	margin: 0px;
@@ -314,7 +314,7 @@ body{
 	padding-left : 25px;
 	height:40px;
 	margin : 3px 10px; 
-	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
+	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 	display: flex;
@@ -336,7 +336,7 @@ body{
 	font-size: 16px;
 }
 
-/* -------ㅡfooter ----------------------------*/
+/* -------�뀫footer ----------------------------*/
 
 
 .footer{
@@ -391,7 +391,7 @@ body{
 
 }
 
-/* -------ㅡmedia ----------------------------*/
+/* -------�뀫media ----------------------------*/
 
 @media screen and (max-width: 500px) {
 	.header{font-size: 11px;}
@@ -550,5 +550,31 @@ button:hover {
         width: 100%;
     }
 } 
+
+
+.style-cont {	
+	width: 90%;
+	margin: 20px 0px;
+}
  
-.style
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.style-container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
