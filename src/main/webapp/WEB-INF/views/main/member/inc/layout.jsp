@@ -14,7 +14,7 @@
 <link href="${ctx }/resources/css/member.css" type ="text/css" rel ="stylesheet">
 
 
-<script src="${ctx }/resources/js/main.js"></script>
+<script src="${ctx }/resources/js/member.js"></script>
 </head>
 <body>
 

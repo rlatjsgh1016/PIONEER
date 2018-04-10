@@ -99,8 +99,8 @@
 			<h1 class="hidden">버튼목록</h1>
 			<ul>
 				<li></li>
-				<li id="edit-button"><a href="">수정</a></li>
-				<li id="del-button"><a href="">삭제</a></li>
+				<li id="edit-button" style="font-size:12px; text-align: center;"><a href="">정보<br>수정</a></li>
+				<li id="del-button" style="font-size:12px;  text-align: center;"><a href="">내<br>서비스</a></li>
 			</ul>
 		</nav>
 </main>

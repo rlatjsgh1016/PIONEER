@@ -545,19 +545,20 @@ button:hover {
 }
 
 .btn-list > ul > li {
-	background: #084B8A;
+	background: #424242;
 	color: white;
 	width : 50px;
 	height: 50px;
 	border-radius: 25px;
-	position:absolute;
+	position:fixed;
 	right: 10px;
-	bottom: 10px;
+	top: 60px;
 	transition: 0.3s;
 	border : 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-shadow: gray;
 }
 
 .btn-list > ul > li a{
@@ -572,11 +573,11 @@ button:hover {
 }
 
 #edit-button.show {
-	bottom:110px;	
+	top:110px;	
 }
 
 #del-button.show {
-	bottom:60px;	
+	top:160px;	
 }
 
 
@@ -667,4 +668,8 @@ button:hover {
 		width:100%;
 		position: inherit;
 	}	
+	.dropdown-content,
+ 	.dropdown-content2 {
+   		min-width: 100px;
+	}
 }
