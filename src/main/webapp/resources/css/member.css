@@ -36,7 +36,7 @@ a:hover, a:active {
 
 
 body{
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body{
 	max-width: fit-content;
 	padding-left : 25px;
 	margin : 50px auto 30px auto;
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 
@@ -265,6 +265,9 @@ body{
 	margin: 0px;
 	background: white;
 	padding: 15px 0px;
+	display:-ms-flexbox;
+	-ms-flex-direction:column;
+	-ms-flex-align:center;
 	
 }
 
@@ -314,7 +317,7 @@ body{
 	padding-left : 25px;
 	height:40px;
 	margin : 3px 10px; 
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 	display: flex;
@@ -391,59 +394,7 @@ body{
 
 }
 
-/* -------�뀫media ----------------------------*/
 
-@media screen and (max-width: 500px) {
-	.header{font-size: 11px;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 30px;
-        top: 10px;
-        right: 10px;
-    }
-    .header ul a,
-	.header ul .dropbtn,
-	.header ul .dropbtn2 {
-		padding-right: 7px;
-		font-weight: normal;
-
-	}
-	.main{
-		background-size: 1000px;
-	}
-	.footer{
-		font-size: 11px;
-	}
-	.visual{
-		background: url("../images/fashion.jpg") no-repeat center;
-		/* background-color: #0172CE; */
-		min-height: 190px;
-		max-height: 300px;
-		
-	}
-	.ent-btn{
-		top: 180px;
-	}
-	
-	.contents{
-		margin: 0px;
-		padding: 10px 0px;		
-	}
-	
-	.board-container {
-		padding: 0px;
-		flex-direction :column;
-	}
-	.board {
-		width: 95%;
-		height: 300px;
-	}
-	
-	.tablink {
-		font-size: 11px !important;
-	}
-	
-}
 
 /* --------tab bar ------------------ */
 
@@ -578,3 +529,142 @@ button:hover {
 .js {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 
+
+.btn-list {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	border : 1px solid red;
+}
+
+.btn-list > ul {
+	border: 1px solid blue;	
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.btn-list > ul > li {
+	background: #084B8A;
+	color: white;
+	width : 50px;
+	height: 50px;
+	border-radius: 25px;
+	position:absolute;
+	right: 10px;
+	bottom: 10px;
+	transition: 0.3s;
+	border : 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-list > ul > li a{
+	color: white;
+}
+
+
+.btn-list > ul > li:first-child {
+	order: 2;
+	background: url("../images/ic_more_horiz_white_24dp_2x.png") black;
+	z-index: 100;
+}
+
+#edit-button.show {
+	bottom:110px;	
+}
+
+#del-button.show {
+	bottom:60px;	
+}
+
+
+.reco-cont{
+	margin: 0px;
+	padding: 0px;
+	justify-content:flex-start;
+}
+
+.reco-item {
+	width:400px;
+	height: 300px;
+	background: black;
+	
+}
+
+.reco-item:last-child {
+	flex-direction: row;
+}
+
+.more{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: gray;
+	color: white;
+	font-size: 25px;
+}
+
+/* -------�뀫media ----------------------------*/
+
+@media screen and (max-width: 500px) {
+	.header{font-size: 11px;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 10px;
+        right: 10px;
+    }
+    .header ul a,
+	.header ul .dropbtn,
+	.header ul .dropbtn2 {
+		padding-right: 7px;
+		font-weight: normal;
+
+	}
+	.main{
+		background-size: 1000px;
+	}
+	.footer{
+		font-size: 11px;
+	}
+	.visual{
+		background: url("../images/fashion.jpg") no-repeat center;
+		/* background-color: #0172CE; */
+		min-height: 190px;
+		max-height: 300px;
+		
+	}
+	.ent-btn{
+		top: 180px;
+	}
+	
+	.contents{
+		margin: 0px;
+		padding: 10px 0px;		
+	}
+	
+	.board-container {
+		padding: 0px;
+		flex-direction :column;
+	}
+	.board {
+		width: 100%;
+		height: 300px;
+	}
+	
+	.tablink {
+		font-size: 11px !important;
+	}
+	.reco-item {
+		margin: 5px 0px;
+	}	
+	.reco-item:last-child {
+		flex-direction: row;
+	}
+	.reco-item img{
+		width:100%;
+		position: inherit;
+	}	
+}

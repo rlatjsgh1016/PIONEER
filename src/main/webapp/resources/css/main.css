@@ -36,7 +36,7 @@ a:hover, a:active {
 
 
 body{
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body{
 	max-width: fit-content;
 	padding-left : 25px;
 	margin : 50px auto 30px auto;
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 
@@ -272,6 +272,9 @@ body{
 	margin: 0px;
 	background: white;
 	padding: 15px 0px;
+	display:-ms-flexbox;
+	-ms-flex-direction:column;
+	-ms-flex-align:center;
 }
 
 .board-container {
@@ -322,7 +325,7 @@ body{
 	padding-left : 25px;
 	height:40px;
 	margin : 3px 10px; 
-	font-family: 留묒� 怨좊뵓, 怨좊뵓, �룍��, Arial, sans-serif;
+	font-family: 맑은 고딕, 고딕, 돋움, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;	
 	display: flex;

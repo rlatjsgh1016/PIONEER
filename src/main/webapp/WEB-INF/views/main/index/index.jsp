@@ -62,7 +62,7 @@
 		
 			<div class="board-container">
 				
-				<div class="board">
+				<div class="board ">
 					<img src="${ctx }/resources/images/1.jpg">
 					<div class="board-title-cont">
 						<div class="board-title">정말 좋습니다!</div>
