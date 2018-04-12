@@ -21,8 +21,9 @@
 </main>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Pricing</h1>
-      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+		<!-- class="display-4" -->
+      <h1 style="font-weight: normal; margin: 10px 0px;">서비스 소개</h1>
+      <p class="lead">우리 서비스를 사용하세요<br>블라블라블라<br>좋아요 어쩌구 저쩌구</p>
     </div>
 
     <div class="price-container">
@@ -32,14 +33,14 @@
             <h4 class="my-0 font-weight-normal">Free</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+            <h1 class="card-title pricing-card-title">무료 <small class="text-muted">/ 한달(mo)</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>취향분석 서비스</li>
+              <li>맞춤형 옷 추천</li>
+              <li>후기 열람 무료</li>
+              <li>데이터 열람 무료</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">가입하기</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -47,14 +48,14 @@
             <h4 class="my-0 font-weight-normal">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+            <h1 class="card-title pricing-card-title">1.5만원 <small class="text-muted">/ 한달(mo)</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li>준비중</li>
+              <li>준비중</li>
+              <li>준비중</li>
+              <li>준비중</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+            <button type="button" class="btn btn-lg btn-block btn-primary">준비중</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -62,14 +63,14 @@
             <h4 class="my-0 font-weight-normal">Enterprise</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+            <h1 class="card-title pricing-card-title">3.0만원 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>준비중</li>
+              <li>준비중</li>
+              <li>준비중</li>
+              <li>준비중</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+            <button type="button" class="btn btn-lg btn-block btn-primary">준비중</button>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@
 	<section class="style-cont">
 	<div class="title" style="margin:0px; background-position:1px; padding-left:10px">취향 분석</div>
 		<p>캐주얼</p>
-			<div class="style-container">
+			<div class="style-container" >
 			  <div class="skills html">90%</div>
 			</div>
 			

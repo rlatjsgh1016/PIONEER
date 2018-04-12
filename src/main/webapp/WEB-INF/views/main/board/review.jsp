@@ -28,6 +28,7 @@
 	
 		<div class="board-container">
 		
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -38,6 +39,9 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>
+		
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -48,6 +52,9 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>
+		
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -58,6 +65,9 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>
+		
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -68,6 +78,8 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -78,6 +90,9 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>
+		
+		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -88,7 +103,7 @@
 					<div class="board-etc"><span >후기게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
-			
+		</a>
 		</div>
 		<div class="press-btn">더보기</div>
 	</section>

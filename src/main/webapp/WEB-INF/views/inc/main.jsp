@@ -6,7 +6,7 @@
 <main class="main">
 		
 		<!-- The video -->
-		<video autoplay muted id="myVideo"  poster="${ctx }/resources/images/mainimg.jpg">
+		<video muted id="myVideo"  poster="${ctx }/resources/images/mainimg.jpg">
 		  <source src="${ctx }/resources/video/main.webm" type="video/webm" >
 		   <source src="${ctx }/resources/video/main.mp4" type="video/mp4"  >
 		</video>
@@ -16,8 +16,8 @@
 		  <h1>Pioneer</h1>
 		  <p style="font-weight: normal;">어서오세요 :)</p>
 		  <!-- Use a button to pause/play the video with JavaScript -->
-		  <button id="myBtn" onclick="myFunction()">재생하기</button>
-		  <button id="myBtn" class="blue" ><a href="main/index">들어가기</a></button>
+		  <button id="myBtn" onclick="myFunction()">영상재생</button>
+		  <a href="${ctx }/main/index"><button id="myBtn" class="blue" >들어가기</button></a>
 		</div> 
 
 		
@@ -59,6 +59,18 @@
 		    color: #000;
 		    cursor: pointer;
 		}
+		#myBtn2 {
+			width: 25%;
+		    max-width: 200px;
+		    font-size: 18px;
+		    padding: 10px;
+		    border: none;
+		    background: #FFF;
+		    color: #000;
+		    cursor: pointer;
+		}
+		
+		
 		#myBtn.blue{
 			background: #2196F3 !important;
 			color: white !important;
@@ -92,7 +104,7 @@
 		        btn.innerHTML = "일시정지";
 		    } else {
 		        video.pause();
-		          btn.innerHTML = "재생하기";
+		          btn.innerHTML = "영상재생";
 		    }
 		}
 	</script>

@@ -61,7 +61,8 @@
 			<div class="title">인기있는 후기</div>
 		
 			<div class="board-container">
-				
+			
+			<a href="${ctx }/main/index">	
 				<div class="board ">
 					<img src="${ctx }/resources/images/1.jpg">
 					<div class="board-title-cont">
@@ -70,7 +71,9 @@
 						<div class="board-etc"><span>게시판 종류</span> <span>2018.03.02  <span>37</span></span></div>
 					</div>
 				</div>
-				
+			</a>
+			
+			<a href="${ctx }/main/index">	
 				<div class="board">
 				<img src="${ctx }/resources/images/12.jpg">
 					<div class="board-title-cont">
@@ -79,8 +82,9 @@
 						<div class="board-etc"><span >게시판 종류</span> <span>2018.03.02  <span >37</span></span></div>
 					</div>
 				</div>
-				
-				
+			</a>
+			
+			<a href="${ctx }/main/index">	
 				<div class="board">
 				<img src="${ctx }/resources/images/1.jpg">
 					<div class="board-title-cont">
@@ -89,8 +93,9 @@
 						<div class="board-etc"><span >게시판 종류</span> <span>2018.03.02  <span >37</span></span></div>
 					</div>
 				</div>
+			</a>
 			
-				
+			<a href="${ctx }/main/index">
 				<div class="board">
 				<img src="${ctx }/resources/images/fas.jpg">
 					<div class="board-title-cont">
@@ -100,7 +105,9 @@
 					</div>
 				
 				</div>
-				
+			</a>
+			
+			<a href="${ctx }/main/index">
 				<div class="board">
 				<img src="${ctx }/resources/images/1.jpg">
 					<div class="board-title-cont">
@@ -109,8 +116,9 @@
 						<div class="board-etc"><span >게시판 종류</span> <span>2018.03.02  <span >37</span></span></div>
 					</div>
 				</div>
+			</a>
 				
-				
+			<a href="${ctx }/main/index">	
 				<div class="board">
 				<img src="${ctx }/resources/images/123.gif">
 					<div class="board-title-cont">
@@ -119,7 +127,7 @@
 						<div class="board-etc"><span >게시판 종류</span> <span>2018.03.02  <span >37</span></span></div>
 					</div>
 				</div>
-				
+			</a>
 			</div>
 		</section>
 		

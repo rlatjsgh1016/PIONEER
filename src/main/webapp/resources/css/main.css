@@ -458,8 +458,13 @@ body{
 		flex-direction :column;
 	}
 	.board {
-		width: 95%;
+		width: 100%;
 		height: 300px;
+	}
+	
+	.board img{
+		width: 95%;
+		
 	}
 	
 	.tablink {
