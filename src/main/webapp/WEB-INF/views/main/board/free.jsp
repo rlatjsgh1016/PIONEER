@@ -28,7 +28,8 @@
 	
 		<div class="board-container">
 		
-			<div class="board">
+		<a href="${ctx }/main/index">
+			<div class="board" >
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
 					<div class="board-title">
@@ -38,7 +39,10 @@
 					<div class="board-etc"><span >자유게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
-			<div class="board">
+		</a>
+		
+		<a href="${ctx }/main/index">
+			<div class="board" >
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
 					<div class="board-title">
@@ -48,6 +52,8 @@
 					<div class="board-etc"><span >자유게시판</span> <span>2018.03.02  <span >37</span></span></div>
 				</div>
 			</div>
+		</a>	
+		
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
 				<div class="board-title-cont">
@@ -94,3 +100,14 @@
 	</section>
 	
 </main>
+
+<script>
+	/* var board = document.querySelector(".board");
+	var boardImg = document.querySelector(".board img");
+	boardImg.onmouseover = function(){
+		boardImg.style.zIndex = "-1";
+		board.style.background = "black";
+
+	} */
+		
+</script>

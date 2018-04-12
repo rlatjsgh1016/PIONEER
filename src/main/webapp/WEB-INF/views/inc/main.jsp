@@ -6,8 +6,9 @@
 <main class="main">
 		
 		<!-- The video -->
-		<video preload autoplay muted loop id="myVideo">
-		  <source src="${ctx }/resources/video/main.mp4" type="video/mp4"  >
+		<video autoplay muted id="myVideo"  poster="${ctx }/resources/images/mainimg.jpg">
+		  <source src="${ctx }/resources/video/main.webm" type="video/webm" >
+		   <source src="${ctx }/resources/video/main.mp4" type="video/mp4"  >
 		</video>
 		
 		
@@ -15,7 +16,7 @@
 		  <h1>Pioneer</h1>
 		  <p style="font-weight: normal;">어서오세요 :)</p>
 		  <!-- Use a button to pause/play the video with JavaScript -->
-		  <button id="myBtn" onclick="myFunction()">일시정지</button>
+		  <button id="myBtn" onclick="myFunction()">재생하기</button>
 		  <button id="myBtn" class="blue" ><a href="main/index">들어가기</a></button>
 		</div> 
 
@@ -29,7 +30,8 @@
 		.main {
 			padding: 0px;
 			display:flex;
-			justify-content: center;
+			display: -ms-flexbox;
+			-webkit-justify-content: center;
 		}
 	
 		#myVideo {
@@ -75,8 +77,11 @@
 	</style>
 	
 	<script>
+	
 		var video = document.querySelector("#myVideo");
-		 
+		
+		
+		
 		// Get the button
 		var  btn = document.querySelector("#myBtn");
 	

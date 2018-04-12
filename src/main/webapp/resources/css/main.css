@@ -289,15 +289,22 @@ body{
 	flex-wrap:  wrap;
 }
 
+.board-container a {
+	margin: 0px;
+	padding: 0px;
+}
+
 .board {
 	width: 450px;
 	height: 300px;
 	/* background: gray;*/
 	margin: 10px 5px;
+	margin-left:0px;
 	display: flex;
 	flex-direction: column-reverse;
 	-ms-flex-direction: column;
 }
+
 
 .board img {
 	width: inherit;
@@ -463,6 +470,14 @@ body{
  	.dropdown-content2 {
    		min-width: 90px;
 	}
+	
+	.board-container a {
+		margin: 0px;
+		padding: 0px;
+		width: 95%;
+		
+	}
+	
 	
 }
 
