@@ -37,7 +37,7 @@ a:hover, a:active {
 
 
 body{
-	font-family: 맑은고딕, 고딕, 돋움, Arial, sans-serif;
+	
 	font-weight: bold;
 }
 
@@ -89,9 +89,9 @@ body{
 
 .main{
 
-	background: url("../images/123.gif") repeat ;
+	/* background: url("../images/123.gif") repeat ;
 	background-size:auto;
-	background-color: white;
+	background-color: white; */
 	
 }
 .main:after{
@@ -187,5 +187,8 @@ body{
 	.main{
 		background-size: 1000px;
 	}
-}
- 
+	
+	#myBtn {
+		font-size: 14px !important;
+	}
+} 

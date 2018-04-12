@@ -66,10 +66,14 @@ var dropdown2 = document.querySelector(".dropbtn2");
 
 dropdown.onclick= function() {
     document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown2").classList.remove("show");
+
 }
 
 dropdown2.onclick= function() {
     document.getElementById("myDropdown2").classList.toggle("show");
+    document.getElementById("myDropdown").classList.remove("show");
+
 }
 
 var visual = document.querySelector(".visual");

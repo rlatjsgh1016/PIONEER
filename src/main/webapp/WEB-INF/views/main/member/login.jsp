@@ -43,3 +43,22 @@
 
 	
 </main>
+
+<script>
+	window.addEventListener("resize",function(){
+		var background = document.querySelector('.main');
+		
+		var height = window.innerHeight;
+		
+		background.style.minHeight = parseInt(height)- (51+150) +"px";
+	});
+
+	window.addEventListener("load",function(){
+		var background = document.querySelector('.main');
+		
+		var height = window.innerHeight;
+		
+		background.style.minHeight = parseInt(height)- (51+150) +"px";
+	});
+	
+</script>
