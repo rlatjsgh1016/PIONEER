@@ -6,7 +6,7 @@
 <main class="main">
 		
 		<!-- The video -->
-		<video muted id="myVideo"  poster="${ctx }/resources/images/mainimg.jpg">
+		<video preload autobuffer muted id="myVideo"  poster="${ctx }/resources/images/mainimg.jpg">
 		  <source src="${ctx }/resources/video/main.webm" type="video/webm" >
 		   <source src="${ctx }/resources/video/main.mp4" type="video/mp4"  >
 		</video>

@@ -33,7 +33,7 @@
             <h4 class="my-0 font-weight-normal">Free</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">무료 <small class="text-muted">/ 한달(mo)</small></h1>
+            <h1 class="card-title pricing-card-title">무료 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>취향분석 서비스</li>
               <li>맞춤형 옷 추천</li>
@@ -48,7 +48,7 @@
             <h4 class="my-0 font-weight-normal">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">1.5만원 <small class="text-muted">/ 한달(mo)</small></h1>
+            <h1 class="card-title pricing-card-title">1.5만원 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>준비중</li>
               <li>준비중</li>

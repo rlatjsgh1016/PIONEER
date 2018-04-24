@@ -27,4 +27,9 @@ public class MainBoardController {
 		return "main.board.question";
 		
 	}
+	
+	@RequestMapping("{id}") 
+	public String deatail() {
+		return "main.board.detail";
+	}
 }
