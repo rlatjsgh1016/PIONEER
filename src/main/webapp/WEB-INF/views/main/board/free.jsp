@@ -26,7 +26,10 @@
 		
 		<div class="title">자유게시판</div>
 	
+		
 		<div class="board-container">
+		
+		<div class="press-btn" >글쓰기</div>
 		
 		<a href="${ctx }/main/index">
 			<div class="board" >

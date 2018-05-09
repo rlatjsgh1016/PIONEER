@@ -22,7 +22,7 @@
 
 		
 		<tiles:insertAttribute name="main" />
-	</main>
+
 	
 	<tiles:insertAttribute name="footer" />
 	

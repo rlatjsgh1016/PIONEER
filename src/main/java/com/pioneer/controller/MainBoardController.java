@@ -27,6 +27,12 @@ public class MainBoardController {
 		return "main.board.question";
 		
 	}
+	@RequestMapping("/z")
+	public String z() {
+		
+		return "main.board.z";
+		
+	}
 	
 	@RequestMapping("{id}") 
 	public String deatail() {

@@ -28,6 +28,8 @@
 	
 		<div class="board-container">
 		
+		<div class="press-btn" >글쓰기</div>
+		
 		<a href="${ctx }/main/index">
 			<div class="board">
 			<img src="${ctx }/resources/images/1.jpg">
